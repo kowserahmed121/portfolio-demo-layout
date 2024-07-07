@@ -16,6 +16,7 @@ header{
     background-image: url(../assets/Developer.png), url(../assets/background.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: contain;
 }
 
 .nav-container {
@@ -109,7 +110,7 @@ cursor: pointer;
 }
 
 main{
-    margin: 120px 200px;
+    margin: 120px 200px 120px 200px;
 }
 
 .about-container{
@@ -176,4 +177,86 @@ margin: 20px 0px 20px 0px;
 
 .summary .common-title{
     margin-top: 100px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.resume-content h2{
+    margin-bottom: 30px;
+color: #474747;
+ font-size: 30px;
+ font-weight: 700;
+}
+
+.resume-text h4{
+color: #474747;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.resume-text .university {
+color: #757575;
+ font-size: 16px;
+ font-weight: 600;
+ margin: 15px 0px;
+}
+
+.resume-text .resume-paragraph{
+color: #757575;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 28px;
+ margin-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+.middle-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-section{
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-title{
+color: #181818;
+ font-size:20px;
+ font-weight: 700;
+ margin: 20px 0px;
+}
+
+.footer-container p{
+color: #474747;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 28px;
+ word-wrap: break-word;
+ margin-bottom: 20px;
+}
+
+.footer-container div img{
+    margin-right: 15px;
+}
+
+.footer-container-input input[type="text"], [type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+   width: 350px;
+   padding: 14px 20px;
+   font-size: 16px;
+   border: none;
+   color: white;
 }
